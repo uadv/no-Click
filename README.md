@@ -11,4 +11,4 @@ To create your own keyboard follow these steps:
 
 2. Use node key sender key codes to create your keyboard, here is the page: https://www.npmjs.com/package/node-key-sender
 
-3. 
+3. Some keys may not be accessible through a key word so you will have to use ```keySender.sendCombination(['shift', specialIcons[i]]);```
